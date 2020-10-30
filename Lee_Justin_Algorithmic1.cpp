@@ -7,6 +7,9 @@ Justin Lee
 #include <string>
 using namespace std;
 
+// PROGRAM DOESNT WORK!!!
+// WILL FIX LATER
+
 int main() {
 	int N;
 	cin >> N;
