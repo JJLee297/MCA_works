@@ -35,6 +35,7 @@ bool Anagram::processWords() {
 	if (wordS.length() != wordR.length()) {
 		return false;
 	}
+	temp = wordS; 
 	for (int i = 0; i < wordS.length(); ++i) {
 		for (int j = 0; j < wordR.length(); ++j) {
 			if (wordS[i] == wordR[j]) {
